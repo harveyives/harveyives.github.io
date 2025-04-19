@@ -12,8 +12,8 @@ export const sharedPageComponents: SharedLayout = {
         repo: 'harveyives/blog',
         repoId: 'R_kgDOOcMuBg',
         category: 'Announcements',
-        // from data-category-id
         categoryId: 'DIC_kwDOOcMuBs4CpQbo',
+        themeUrl: 'Fro'
       }
     }),
   ],

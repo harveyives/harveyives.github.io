@@ -8,8 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "Harvey Ives",
+    pageTitleSuffix: "Personal Site",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -23,21 +23,25 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
+        header: {
+          "name":  "Special Gothic Expanded One",
+          "weights": [400],
+
+        },
         body: "Source Sans Pro",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
+          light: "#e4d9c5",
+          lightgray: "#d1c9ba",
+          gray: "#5e686d",
           darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          dark: "#63584c",
+          secondary: "#824e4a",
+          tertiary: "#2e5169",
+          highlight: "rgba(130, 78, 74, 0.15)",
+          textHighlight: "#e4d9c5",
         },
         darkMode: {
           light: "#161618",
