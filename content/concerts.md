@@ -34,7 +34,7 @@ I am a big music fan, and I try to go to as many concerts as possible, here's ne
     - Jamie XX
     - Frank Ocean
  - J.Cole
- - Joey Bada$$
+ - Joey Bada\$$
  - Rex Orange County
  - BadBadNotGood
 
@@ -93,6 +93,7 @@ I am a big music fan, and I try to go to as many concerts as possible, here's ne
     - Tøfl
     - Kjartan Lauritzen
     - Ylvis
+- Øyafestivalen
     - Snail Mail 
     - Boy Genius
  - Bjørn Eidsvåg
@@ -109,11 +110,16 @@ I am a big music fan, and I try to go to as many concerts as possible, here's ne
     - Yussef Dayes
     - Sampha
     - Idles
-    - Ka2
+- Ka2
  - Klossmajor
  - Ylvis
 
 ## 2025
  - Oscar Jerome
+ - Øyafestivalen
+	 - Khruangbin
+	 - Charli XCX
+	 - Chappell Roan
+ - Bjørn Eidsvåg
 
 
