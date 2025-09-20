@@ -1,0 +1,37 @@
+---
+draft: false
+---
+- [Wool beanie](https://www.highland2000.com/products/merino-ribbed-beanie-burnt-orange)
+- [Braun Travel Alarm BC02 Black](https://www.amazon.co.uk/Braun-Analogue-BC02XB-Movement-Crescendo/dp/B07P1B3J8X)
+- Oslo Sauna Membership (Birty knows)
+- Ceramics course (Birty knows)	- [kroloftet](https://www.kroloftet.no/fienta/136451)
+	- [oslo keramikk verksted](https://www.oslokeramikkverksted.no/)
+- [Wood working intro course / membership](https://www.kroloftet.no/leie/treverksted)
+- [Carabiners](https://ultralightoutdoorgear.co.uk/accessory-carabiner-set/)
+- [Camping Towel Large](https://ultralightoutdoorgear.co.uk/airlite-towel/)
+- [Ultralight cutting board for camping large](https://ultralightoutdoorgear.co.uk/cutting-board/)
+- [Living in Japan Book](https://www.amazon.co.uk/Living-Japan-40th-Alex-Kerr/dp/3836588439)
+- [Brighton Beard Co ylang ylang and sandal wood beard balm](https://www.thebrightonbeardcompany.co.uk/products/best-beard-balm)
+- [Field Notes notebooks](https://edcgear.co.uk/products/is-a-river-alive)
+- Dinner at Michelin star restaurant 
+	- Restaurant Roots Southbourne 
+	- Stallen Oslo
+	- [Or one from here accommodating veggies](http://guide.michelin.com/en/no/oslo-region/oslo/restaurants)
+- [Honey I washed the kids](https://www.lush.com/uk/en/p/honey-i-washed-the-kids-soap)
+- Espresso Coffee Beans 
+	- [Square Mile Red Brick](https://shop.squaremilecoffee.com/products/red-brick)
+	- [Rave Kenyan Coffee (Bean)](https://ravecoffee.co.uk/products/kenya-rungeto-kii-no-298)
+	- [Rave Indian Monsoon Coffee (Bean)](https://ravecoffee.co.uk/products/indian-monsooned-malabar)
+- [Coffee Tasting & Roastery tour](https://timwendelboe.no/product/coffeetasting/)
+- Trip in Norway (Lofoten, Ålesund, Western Coast, Cool cabin somewhere) (Birty knows)
+- [Beekeeping Membership](https://bybi.no/events/local-buzz-andelsbirokterlag-2025/)
+- Single origin chocolate
+	- [Land Chocolate](https://landchocolate.com)
+	- [hotel chocolate](https://www.hotelchocolat.com/uk/shop/collections/products/single-origin-chocolate/)
+	- [cocoa runners](https://cocoarunners.com/)
+- [Essdee Lino Cuttin Kit](https://www.amazon.co.uk/Essdee-Lino-Cutting-Printing-Pieces/dp/B00EOP63P8/)
+- [Wacaco Picopresso Portable Espresso Maker](https://www.amazon.co.uk/WACACO-Picopresso-Protective-Compatible-Ultra-fine/dp/B097DCNLL6/)
+- [Kingrinder p2 portable coffee grinder](https://www.amazon.co.uk/Recommended%E3%80%91-KINGrinder-Lightweight-Consistency-Stainless/dp/B0DJ8KVGYM?ref_=ast_sto_dp)
+- Tools/Bits and pieces for bike maintenance
+- [Taschen Holusai Art Book](https://www.amazon.co.uk/Hokusai-Basic-Art-Rhiannon-Paget/dp/3836563371/)
+- [Taschen Mies Van Der Rohe Architecture Book](https://www.amazon.co.uk/Mies-van-Rohe-Claire-Zimmerman/dp/3836560429/)
