@@ -1,5 +1,6 @@
 ---
 draft: false
+title: Wishlist
 ---
 - [Wool beanie](https://www.highland2000.com/products/merino-ribbed-beanie-burnt-orange)
 - [Braun Travel Alarm BC02 Black](https://www.amazon.co.uk/Braun-Analogue-BC02XB-Movement-Crescendo/dp/B07P1B3J8X)
@@ -10,7 +11,6 @@ draft: false
 - [Carabiners](https://ultralightoutdoorgear.co.uk/accessory-carabiner-set/)
 - [Camping Towel Large](https://ultralightoutdoorgear.co.uk/airlite-towel/)
 - [Ultralight cutting board for camping large](https://ultralightoutdoorgear.co.uk/cutting-board/)
-- [Living in Japan Book](https://www.amazon.co.uk/Living-Japan-40th-Alex-Kerr/dp/3836588439)
 - [Brighton Beard Co ylang ylang and sandal wood beard balm](https://www.thebrightonbeardcompany.co.uk/products/best-beard-balm)
 - [Field Notes notebooks](https://edcgear.co.uk/products/is-a-river-alive)
 - Dinner at Michelin star restaurant 
@@ -35,3 +35,4 @@ draft: false
 - Tools/Bits and pieces for bike maintenance
 - [Taschen Holusai Art Book](https://www.amazon.co.uk/Hokusai-Basic-Art-Rhiannon-Paget/dp/3836563371/)
 - [Taschen Mies Van Der Rohe Architecture Book](https://www.amazon.co.uk/Mies-van-Rohe-Claire-Zimmerman/dp/3836560429/)
+- [Taschen Living in Japan Book](https://www.amazon.co.uk/Living-Japan-40th-Alex-Kerr/dp/3836588439)
