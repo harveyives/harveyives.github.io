@@ -1,5 +1,9 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import RSSFeed from "./quartz/components/RSSFeed"
+
+// Register RSSFeed as a component that can be used in markdown files
+Component.RSSFeed = RSSFeed
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
