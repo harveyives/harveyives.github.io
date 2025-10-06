@@ -1,4 +1,3 @@
-import { QuartzEmitterPlugin } from "../types"
 import { promises as fs } from "fs"
 import path from "path"
 
@@ -33,54 +32,47 @@ const toStars = (rating: string) => {
 
 const truncate = (text: string, max: number) => text.length > max ? text.slice(0, max) + "..." : text
 
-const filmCard = (f: any) => `
+const htmlTemplate = (f: any) => `
 <div style="border: 1px solid var (--gray, #ddd); border-radius: 0.5rem; overflow: hidden; text-align: center; transition: transform 0.2s;">
     <a href="${f.link}" target="_blank" style="text-decoration: none; color: inherit; display: block;">
         ${f.poster ? `<img src="${f.poster}" alt="${f.title}" style="width: 100%; aspect-ratio: 2/3; object-fit: cover; display: block;">` : '<div style="width: 100%; aspect-ratio: 2/3; display: flex; align-items: center; justify-content: center; background: var(--lightgray, #f5f5f5); font-size: clamp(2em, 5vw, 3rem);">🎬</div>'}
         <div style="padding: clamp(0.75 rem, 2vw, 1.25 rem);">
             <strong style="font-size: clamp (0.9rem, 2vw, 1rem); line-height: 1.3;">${f.title}</strong><br>
-            <small style="font-size: clamp (0.75rem, 1.5vw, 0.875rem); color: var(--gray, #666);">${f.year}</small><br>
-            <span style="font-size: clamp(1rem, 2.5vw, 1.25rem); display: inline-block; margin: 0.25rem 0;">${f.rating}</span>
-            ${f.review ? `<br><em style="font-size: clamp(0.7rem, 1.5vw, 0.8rem); color: var(—-darkgray, #666); line-height: 1.4; display: block; margin-top: 0.5rem;">"${f.review}"</em>` : ""}
         </div>
     </a>
+    <div style="padding: clamp(0.75 rem, 2vw, 1.25 rem);">
+        <small style="font-size: clamp (0.75rem, 1.5vw, 0.875rem); color: var(--gray, #666);">${f.year}</small><br>
+        <span style="font-size: clamp(1rem, 2.5vw, 1.25rem); display: inline-block; margin: 0.25rem 0;">${f.rating}</span>
+        ${f.review ? `<br><em style="font-size: clamp(0.7rem, 1.5vw, 0.8rem); color: var(—-darkgray, #666); line-height: 1.4; display: block; margin-top: 0.5rem;">"${f.review}"</em>` : ""}
+    </div>
 </div>`
 
-export const Letterboxd: QuartzEmitterPlugin<{ username: string }> = ({ username }) => {
-
-    const initPromise = (async () => {
-        const contentDir = path.join(process.cwd(), "content")
-        await prepareLetterboxdFile(username, contentDir)
-    })()
-    return ({
-        name: "LetterboxdRSS",
-        async *emit() {
-            await initPromise
-        }
-    })
+export const prepareLetterboxdFile = async (username: string) => {
+    console.log("Preparing Letterboxd content...")
+    const outputPath = path.join(path.join(process.cwd(), "content"), "letterboxd.md")
+    try {
+        const rss = await fetch(`https://letterboxd.com/${username}/rss/`)
+            .then(r => r.text())
+        const films = parseXML(rss)
+            .slice(0, 12)
+            .map(i => ({
+                title: i.filmTitle,
+                year: i.filmYear,
+                rating: toStars(i.memberRating),
+                link: i.link || "",
+                poster: i.description?.match(/src="(https:\/\/a\.ltrbxd\.com\/[^"]+)"/)?.[1] || "",
+                review: truncate(i.description?.match(/<\/p>\s*<p[^>]*>(.*?)<\/p>/)?.[1]?.replace(/<[^>]*>/g, "").trim() || "", 60)
+            }))
+        
+        await fs.mkdir(path.dirname(outputPath), { recursive: true })
+        await fs.writeFile(outputPath, markdownTemplate(username, films), "utf-8")
+        console.log(`Generated letterboxd md with ${films.length} films`)
+    } catch (error) {
+        console.error(`Letterbox RSS failed: ${error}`)
+    }
 }
 
-const prepareLetterboxdFile = async (username: string, contentDir: string) => {
-    console.log("Preparing Letterboxd content...")
-    const outputPath = path.join(contentDir, "letterboxd.md")
-
-            try {
-                console.log(`Fetching Letterboxd RSS for ${username}...`)
-
-                const rss = await fetch(`https://letterboxd.com/${username}/rss/`)
-                    .then(r => r.text())
-                const films = parseXML(rss)
-                    // .filter (i => i.filmTitle && i.filmYear)
-                    // .slice(0, 10)
-                    .map(i => ({
-                        title: i.filmTitle,
-                        year: i.filmYear,
-                        rating: toStars(i.memberRating),
-                        link: i.link || "",
-                        poster: i.description?.match(/src="(https:\/\/a\.ltrbxd\.com\/[^"]+)"/)?.[1] || "",
-                        review: truncate(i.description?.match(/<\/p>\s*<p[^>]*>(.*?)<\/p>/)?.[1]?.replace(/<[^>]*>/g, "").trim() || "", 60)
-                    }))
-                const markdown = `---
+const markdownTemplate = (username: string, films: any[]) => `---
 title: "Recent Watches"
 description: "My recent film watches from Letterboxd" 
 tags: ["letterboxd", "films"]
@@ -89,13 +81,6 @@ date: 2025-10-04
 *My recent watches from [Letterboxd](https://letterboxd.com/${username}/)*
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr)); gap: clamp(0.75rem, 2vw, 1.5rem);"> 
-    ${films.map(filmCard).join("")}
+    ${films.map(htmlTemplate).join("")}
 </div>
 `
-                await fs.mkdir(path.dirname(outputPath), { recursive: true })
-                await fs.writeFile(outputPath, markdown)
-                console.log(`Generated letterboxd md with ${films.length} films`)
-            } catch (error) {
-                console.error(`Letterbox RSS failed: ${error}`)
-            }
-}
