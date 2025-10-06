@@ -1,0 +1,24 @@
+@use "../../styles/variables.scss" as *;
+
+.page-title {
+    font-size: 1.75rem;
+    margin: 0;
+    font-family: var(--titleFont);
+}
+
+.page-title .title-full {
+    display: none;
+}
+
+.page-title .title-short {
+    display: inline;
+}
+
+@media all and not ($mobile) {
+    .page-title .title-full {
+        display: inline;
+    }
+    .page-title .title-short {
+        display: none;
+    }
+}
