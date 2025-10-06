@@ -46,28 +46,41 @@ const filmCard = (f: any) => `
     </a>
 </div>`
 
-export const Letterboxd: QuartzEmitterPlugin<{ username: string }> = ({ username }) => ({
-    name: "LetterboxdRSS",
-    async *emit(ctx) {
-        const outputPath = path.join(ctx.argv.directory, "letterboxd.md")
+export const Letterboxd: QuartzEmitterPlugin<{ username: string }> = ({ username }) => {
 
-        try {
-            console.log(`Fetching Letterboxd RSS for ${username}...`);
+    const initPromise = (async () => {
+        const contentDir = path.join(process.cwd(), "content")
+        await prepareLetterboxdFile(username, contentDir)
+    })()
+    return ({
+        name: "LetterboxdRSS",
+        async *emit() {
+            await initPromise
+        }
+    })
+}
 
-            const rss = await fetch(`https://letterboxd.com/${username}/rss/`)
-                .then(r => r.text())
-            const films = parseXML(rss)
-                // .filter (i => i.filmTitle && i.filmYear)
-                // .slice(0, 10)
-                .map(i => ({
-                    title: i.filmTitle,
-                    year: i.filmYear,
-                    rating: toStars(i.memberRating),
-                    link: i.link || "",
-                    poster: i.description?.match(/src="(https:\/\/a\.ltrbxd\.com\/[^"]+)"/)?.[1] || "",
-                    review: truncate(i.description?.match(/<\/p>\s*<p[^>]*>(.*?)<\/p>/)?.[1]?.replace(/<[^>]*>/g, "").trim() || "", 60)
-                }))
-            const markdown = `---
+const prepareLetterboxdFile = async (username: string, contentDir: string) => {
+    console.log("Preparing Letterboxd content...")
+    const outputPath = path.join(contentDir, "letterboxd.md")
+
+            try {
+                console.log(`Fetching Letterboxd RSS for ${username}...`)
+
+                const rss = await fetch(`https://letterboxd.com/${username}/rss/`)
+                    .then(r => r.text())
+                const films = parseXML(rss)
+                    // .filter (i => i.filmTitle && i.filmYear)
+                    // .slice(0, 10)
+                    .map(i => ({
+                        title: i.filmTitle,
+                        year: i.filmYear,
+                        rating: toStars(i.memberRating),
+                        link: i.link || "",
+                        poster: i.description?.match(/src="(https:\/\/a\.ltrbxd\.com\/[^"]+)"/)?.[1] || "",
+                        review: truncate(i.description?.match(/<\/p>\s*<p[^>]*>(.*?)<\/p>/)?.[1]?.replace(/<[^>]*>/g, "").trim() || "", 60)
+                    }))
+                const markdown = `---
 title: "Recent Watches"
 description: "My recent film watches from Letterboxd" 
 tags: ["letterboxd", "films"]
@@ -79,11 +92,10 @@ date: 2025-10-04
     ${films.map(filmCard).join("")}
 </div>
 `
-            await fs.mkdir(path.dirname(outputPath), { recursive: true })
-            await fs.writeFile(outputPath, markdown)
-            console.log(`Generated letterboxd md with ${films.length} films`)
-        } catch (error) {
-            console.error(`Letterbox RSS failed: ${error}`)
-        }
-    }
-})
+                await fs.mkdir(path.dirname(outputPath), { recursive: true })
+                await fs.writeFile(outputPath, markdown)
+                console.log(`Generated letterboxd md with ${films.length} films`)
+            } catch (error) {
+                console.error(`Letterbox RSS failed: ${error}`)
+            }
+}
