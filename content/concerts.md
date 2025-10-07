@@ -1,6 +1,6 @@
 ---
 title: Concerts & Festivals
-date: 2025-04-02
+date: 2017-09-21
 ---
 
 I am a big music fan, and I try to go to as many concerts as possible, here's nearly complete list of every concert I've ever been to.

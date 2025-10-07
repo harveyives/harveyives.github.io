@@ -5,7 +5,7 @@ date: 2025-09-17
 ---
 - [Wool beanie](https://www.highland2000.com/products/merino-ribbed-beanie-burnt-orange)
 - [Braun Travel Alarm BC02 Black](https://www.amazon.co.uk/Braun-Analogue-BC02XB-Movement-Crescendo/dp/B07P1B3J8X)
-- Oslo Sauna Membership (Birty knows)
+- ~~Oslo Sauna Membership (Birty knows)~~
 - Ceramics course (Birty knows)	
 	- [kroloftet](https://www.kroloftet.no/fienta/136451)
 	- [oslo keramikk verksted](https://www.oslokeramikkverksted.no/)
