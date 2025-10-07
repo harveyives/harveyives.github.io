@@ -45,6 +45,7 @@ export type Analytics =
 
 export interface GlobalConfiguration {
   pageTitle: string
+  pageTitleShort?: string
   pageTitleSuffix?: string
   /** Whether to enable single-page-app style rendering. this prevents flashes of unstyled content and improves smoothness of Quartz */
   enableSPA: boolean

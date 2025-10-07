@@ -1,6 +1,8 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { prepareLetterboxdFile } from "./quartz/plugins/emitters/letterboxd"
 
+await prepareLetterboxdFile("harveyives")
 /**
  * Quartz 4 Configuration
  *
@@ -9,6 +11,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Harvey Ives",
+    pageTitleShort: "Harv",
     pageTitleSuffix: " - Harvey Ives",
     enableSPA: true,
     enablePopovers: false,
@@ -61,7 +64,7 @@ const config: QuartzConfig = {
     transformers: [
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "git", "filesystem"],
+        priority: ["frontmatter", "git"],
       }),
       Plugin.SyntaxHighlighting({
         theme: {
@@ -70,10 +73,14 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
+      
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.CrawlLinks({ 
+        markdownLinkResolution: "shortest",
+        externalLinkIcon: false
+      }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
