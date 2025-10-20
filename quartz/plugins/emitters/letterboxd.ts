@@ -77,6 +77,7 @@ title: "Recent Watches"
 description: "My recent film watches from Letterboxd" 
 tags: ["letterboxd", "films"]
 date: 2025-10-04
+modified: ${new Date().toISOString().split("T")[0]}
 ---
 *My recent watches from [Letterboxd](https://letterboxd.com/${username}/)*
 
