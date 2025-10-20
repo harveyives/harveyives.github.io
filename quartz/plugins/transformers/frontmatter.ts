@@ -112,7 +112,6 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
               "last-modified",
             ])
             if (modified) data.modified = modified
-            data.modified ||= created // if modified is not set, use created
 
             const published = coalesceAliases(data, ["published", "publishDate", "date"])
             if (published) data.published = published
@@ -140,7 +139,7 @@ declare module "vfile" {
     } & Partial<{
         tags: string[]
         aliases: string[]
-        modified: string
+        modified?: string
         created: string
         published: string
         description: string
