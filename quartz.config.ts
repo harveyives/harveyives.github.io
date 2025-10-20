@@ -1,8 +1,10 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 import { prepareLetterboxdFile } from "./quartz/plugins/emitters/letterboxd"
+import { prepareHardcoverFile } from "./quartz/plugins/emitters/hardcover"
 
 await prepareLetterboxdFile("harveyives")
+await prepareHardcoverFile("harveyives")
 /**
  * Quartz 4 Configuration
  *

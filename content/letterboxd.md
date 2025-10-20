@@ -3,11 +3,25 @@ title: "Recent Watches"
 description: "My recent film watches from Letterboxd" 
 tags: ["letterboxd", "films"]
 date: 2025-10-04
+modified: 2025-10-20
 ---
 *My recent watches from [Letterboxd](https://letterboxd.com/harveyives/)*
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr)); gap: clamp(0.75rem, 2vw, 1.5rem);"> 
     
+<div style="border: 1px solid var (--gray, #ddd); border-radius: 0.5rem; overflow: hidden; text-align: center; transition: transform 0.2s;">
+    <a href="https://letterboxd.com/harveyives/film/bring-her-back/" target="_blank" style="text-decoration: none; color: inherit; display: block;">
+        <img src="https://a.ltrbxd.com/resized/film-poster/1/0/3/7/6/2/7/1037627-bring-her-back-0-600-0-900-crop.jpg?v=defe1dae77" alt="Bring Her Back" style="width: 100%; aspect-ratio: 2/3; object-fit: cover; display: block;">
+        <div style="padding: clamp(0.75 rem, 2vw, 1.25 rem);">
+            <strong style="font-size: clamp (0.9rem, 2vw, 1rem); line-height: 1.3;">Bring Her Back</strong><br>
+        </div>
+    </a>
+    <div style="padding: clamp(0.75 rem, 2vw, 1.25 rem);">
+        <small style="font-size: clamp (0.75rem, 1.5vw, 0.875rem); color: var(--gray, #666);">2025</small><br>
+        <span style="font-size: clamp(1rem, 2.5vw, 1.25rem); display: inline-block; margin: 0.25rem 0;">★★★★</span>
+        <br><em style="font-size: clamp(0.7rem, 1.5vw, 0.8rem); color: var(—-darkgray, #666); line-height: 1.4; display: block; margin-top: 0.5rem;">"awful but good"</em>
+    </div>
+</div>
 <div style="border: 1px solid var (--gray, #ddd); border-radius: 0.5rem; overflow: hidden; text-align: center; transition: transform 0.2s;">
     <a href="https://letterboxd.com/harveyives/film/lucky-lu/" target="_blank" style="text-decoration: none; color: inherit; display: block;">
         <img src="https://a.ltrbxd.com/resized/film-poster/1/3/3/0/6/8/6/1330686-lucky-lu-0-600-0-900-crop.jpg?v=082bd2d888" alt="Lucky Lu" style="width: 100%; aspect-ratio: 2/3; object-fit: cover; display: block;">
