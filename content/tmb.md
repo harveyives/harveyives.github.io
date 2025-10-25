@@ -4,7 +4,7 @@ title: Tour du Mont Blanc 2025
 ---
 On 38mm film.
 # The Route
-![[Pasted image 20251025101330.jpg]]
+![[route.jpg]]
 160km, 12000m elevation.
 ## Day 1
 ![[IMG_2046.jpg]]
