@@ -2,7 +2,6 @@
 draft: false
 title: Tour du Mont Blanc 2025
 ---
-On 38mm film.
 # The Route
 ![[route.jpg]]
 160km, 12000m elevation.
@@ -52,3 +51,6 @@ Tre le champs
 Chamonix
 ![[IMG_2066.jpg]]
 Chamonix
+
+# Equipment
+I spent a long time honing in on the final pack, cutting any unnecessary weight. My final base weight was under 7kg! Check out my kit list on [Packstack](https://packstack.io/pack/f600318c-ec82-4cae-a501-1c5a5b03e8a0). 
