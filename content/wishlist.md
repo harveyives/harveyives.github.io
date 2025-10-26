@@ -3,23 +3,23 @@ draft: false
 title: Wishlist
 date: 2025-09-17
 ---
-- [Wool beanie - burnt orange](https://www.highland2000.com/products/merino-ribbed-beanie-burnt-orange)
-- [Braun Travel Alarm BC02 Black](https://www.amazon.co.uk/Braun-Analogue-BC02XB-Movement-Crescendo/dp/B07P1B3J8X)
+- ~~[Wool beanie - burnt orange](https://www.highland2000.com/products/merino-ribbed-beanie-burnt-orange)~~
+- ~~[Braun Travel Alarm BC02 Black](https://www.amazon.co.uk/Braun-Analogue-BC02XB-Movement-Crescendo/dp/B07P1B3J8X)~~
 - ~~Oslo Sauna Membership (Birty knows)~~
 - Ceramics course (Birty knows)	
-	- [kroloftet](https://www.kroloftet.no/fienta/136451)
+	- [kroloftet](https://www.kroloftet.no/fienta/136451)~~
 	- [oslo keramikk verksted](https://www.oslokeramikkverksted.no/)
-- [Wood working intro course / membership](https://www.kroloftet.no/leie/treverksted)
+- ~~[Wood working intro course / membership](https://www.kroloftet.no/leie/treverksted)~~
 - [Carabiners](https://ultralightoutdoorgear.co.uk/accessory-carabiner-set/)
 - [Camping Towel Large](https://ultralightoutdoorgear.co.uk/airlite-towel/)
 - [Ultralight cutting board for camping large](https://ultralightoutdoorgear.co.uk/cutting-board/)
 - [Brighton Beard Co ylang ylang and sandal wood beard balm](https://www.thebrightonbeardcompany.co.uk/products/best-beard-balm)
-- [Field Notes notebooks](https://edcgear.co.uk/products/is-a-river-alive)
+- ~~[Field Notes notebooks](https://edcgear.co.uk/products/is-a-river-alive)~~
 - Dinner at Michelin star restaurant 
 	- Restaurant Roots Southbourne 
 	- Stallen Oslo
 	- [Or one from here accommodating veggies](http://guide.michelin.com/en/no/oslo-region/oslo/restaurants)
-- [Lush “Honey I washed the kids” soap](https://www.lush.com/uk/en/p/honey-i-washed-the-kids-soap)
+- ~~[Lush “Honey I washed the kids” soap](https://www.lush.com/uk/en/p/honey-i-washed-the-kids-soap)~~
 - Espresso Coffee Beans 
 	- [Square Mile Red Brick](https://shop.squaremilecoffee.com/products/red-brick)
 	- [Rave Kenyan Coffee (Bean)](https://ravecoffee.co.uk/products/kenya-rungeto-kii-no-298)
@@ -37,4 +37,7 @@ date: 2025-09-17
 - Tools/Bits and pieces for bike maintenance
 - [Taschen Holusai Art Book](https://www.amazon.co.uk/Hokusai-Basic-Art-Rhiannon-Paget/dp/3836563371/)
 - [Taschen Mies Van Der Rohe Architecture Book](https://www.amazon.co.uk/Mies-van-Rohe-Claire-Zimmerman/dp/3836560429/)
-- [Taschen Living in Japan Book](https://www.amazon.co.uk/Living-Japan-40th-Alex-Kerr/dp/3836588439)
+- ~~[Taschen Living in Japan Book](https://www.amazon.co.uk/Living-Japan-40th-Alex-Kerr/dp/3836588439)~~
+- Snacks
+	- Japanese Sweets
+		- Tokyo Banana
