@@ -8,6 +8,7 @@ draft: true
 	 - for collaborating and sharing links without having it listed in menus or explorers etc
  - Giscus or similar
 	 - easy to migrate, decoupled comment system that can be ported
+ - CI to pull in git repo as data source?
 
 ## Other
 Data fetcher module with typescript 
