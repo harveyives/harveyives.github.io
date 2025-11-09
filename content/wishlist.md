@@ -3,71 +3,74 @@ draft: false
 title: Wishlist
 date: 2025-09-17
 ---
-- ~~[Wool beanie - burnt orange](https://www.highland2000.com/products/merino-ribbed-beanie-burnt-orange)~~
-- ~~[Braun Travel Alarm BC02 Black](https://www.amazon.co.uk/Braun-Analogue-BC02XB-Movement-Crescendo/dp/B07P1B3J8X)~~
-- ~~Oslo Sauna Membership (Birty knows)~~
-- Ceramics course (Birty knows)	
-	- [kroloftet](https://www.kroloftet.no/fienta/136451)
-	- [oslo keramikk verksted](https://www.oslokeramikkverksted.no/)
-- ~~[Wood working intro course / membership](https://www.kroloftet.no/leie/treverksted)~~
-- [Carabiners](https://ultralightoutdoorgear.co.uk/accessory-carabiner-set/)
-- [Camping Towel Large](https://ultralightoutdoorgear.co.uk/airlite-towel/)
-- [Ultralight cutting board for camping large](https://ultralightoutdoorgear.co.uk/cutting-board/)
-- [Brighton Beard Co ylang ylang and sandal wood beard balm](https://www.thebrightonbeardcompany.co.uk/products/best-beard-balm)
-- https://www.getfussy.com/no/products/refills
-- ~~[Field Notes notebooks](https://edcgear.co.uk/products/is-a-river-alive)~~
-- Dinner at Michelin star restaurant 
-	- Restaurant Roots Southbourne 
-	- Stallen Oslo
-	- [Or one from here accommodating veggies](http://guide.michelin.com/en/no/oslo-region/oslo/restaurants)
-- ~~[Lush “Honey I washed the kids” soap](https://www.lush.com/uk/en/p/honey-i-washed-the-kids-soap)~~
-- Espresso Coffee Beans 
-	- [Square Mile Red Brick](https://shop.squaremilecoffee.com/products/red-brick)
-	- [Rave Kenyan Coffee (Bean)](https://ravecoffee.co.uk/products/kenya-rungeto-kii-no-298)
-	- [Rave Indian Monsoon Coffee (Bean)](https://ravecoffee.co.uk/products/indian-monsooned-malabar)
-- [Coffee Tasting & Roastery tour](https://timwendelboe.no/product/coffeetasting/)
-- Trip in Norway (Lofoten, Ålesund, Western Coast, Cool cabin somewhere) (Birty knows)
-- [Beekeeping Membership](https://bybi.no/events/local-buzz-andelsbirokterlag-2025/)
-- Single origin chocolate
-	- [Land Chocolate](https://landchocolate.com)
-	- [hotel chocolate](https://www.hotelchocolat.com/uk/shop/collections/products/single-origin-chocolate/)
-	- [cocoa runners](https://cocoarunners.com/)
-- [Essdee Lino Cuttin Kit](https://www.amazon.co.uk/Essdee-Lino-Cutting-Printing-Pieces/dp/B00EOP63P8/)
-- [Wacaco Picopresso Portable Espresso Maker](https://www.amazon.co.uk/WACACO-Picopresso-Protective-Compatible-Ultra-fine/dp/B097DCNLL6/)
-- [Kingrinder p2 portable coffee grinder](https://www.amazon.co.uk/Recommended%E3%80%91-KINGrinder-Lightweight-Consistency-Stainless/dp/B0DJ8KVGYM?ref_=ast_sto_dp)
-- Tools/Bits and pieces for bike maintenance
+- Experiences
+	- Any activity to spend time together (cookery course, coffee/food tasting, …)
+	-  [Coffee Tasting & Roastery tour](https://timwendelboe.no/product/coffeetasting/)
+	- Trip in Norway (Lofoten, Ålesund, Western Coast, Cool cabin somewhere) (Birty knows)
+	- [Beekeeping Membership](https://bybi.no/events/local-buzz-andelsbirokterlag-2025/)
+	- Ceramics/Pottery course (Birty knows)	
+		- [kroloftet](https://www.kroloftet.no/fienta/136451)
+		- [oslo keramikk verksted](https://www.oslokeramikkverksted.no/)
+	- Any course at Kroloftet!
+	- Dinner at Michelin star restaurant 
+		- Restaurant Roots Southbourne 
+		- Stallen Oslo
+		- [Or one from here accommodating veggies](http://guide.michelin.com/en/no/oslo-region/oslo/restaurants)
+- Coffee
+	- [Wacaco Picopresso Portable Espresso Maker](https://www.amazon.co.uk/WACACO-Picopresso-Protective-Compatible-Ultra-fine/dp/B097DCNLL6/)
+	- [Kingrinder p2 portable coffee grinder](https://www.amazon.co.uk/Recommended%E3%80%91-KINGrinder-Lightweight-Consistency-Stainless/dp/B0DJ8KVGYM?ref_=ast_sto_dp)
+	- Espresso Coffee Beans 
+		- [Square Mile Red Brick](https://shop.squaremilecoffee.com/products/red-brick)
+		- [Rave Kenyan Coffee (Bean)](https://ravecoffee.co.uk/products/kenya-rungeto-kii-no-298)
+		- [Rave Indian Monsoon Coffee (Bean)](https://ravecoffee.co.uk/products/indian-monsooned-malabar)
+		- Bad Hand
 - Tachen Art & Design Books
-	- [Taschen Holusai Art Book](https://www.amazon.co.uk/Hokusai-Basic-Art-Rhiannon-Paget/dp/3836563371/)
-	- [Taschen Mies Van Der Rohe Architecture Book](https://www.amazon.co.uk/Mies-van-Rohe-Claire-Zimmerman/dp/3836560429/)
+	- [Hokusai Art Book](https://www.amazon.co.uk/Hokusai-Basic-Art-Rhiannon-Paget/dp/3836563371/)
+	- [Mies Van Der Rohe Architecture Book](https://www.amazon.co.uk/Mies-van-Rohe-Claire-Zimmerman/dp/3836560429/)
 	- ~~[Taschen Living in Japan Book](https://www.amazon.co.uk/Living-Japan-40th-Alex-Kerr/dp/3836588439)~~
-	- [Taschen Haring](https://amzn.eu/d/1hWNxQp)
-	- Meier: White Is the Light (Basic Art) https://amzn.eu/d/dFLvHz3
-	- Louis I. Kahn (Basic Art) https://amzn.eu/d/eXpBeLF
-	- Koenig: Living With Steel (Basic Art) https://amzn.eu/d/in7r0Cp
-	- Gaudí: From Nature to Architecture https://amzn.eu/d/hWTTl1m
-	- Kandinsky: 1866-1944: a Revolution in Painting (Basic Art) https://amzn.eu/d/0WKNa1r
-	- Schindler: 1887-1953, an Exploration of Space (Basic Art) https://amzn.eu/d/decuii1
-	- Le Corbusier: 1887 - 1965: the Lyricism of Architecture in the Machine Age (Basic Art) https://amzn.eu/d/g7t6QPv
-	- Japanese Woodblock Prints (Basic Art) https://amzn.eu/d/febgU6z
-	- Hiroshige: 1797-1858: Master of Japanese Ukiyo-e Woodblock Prints (Basic Art) https://amzn.eu/d/bNO6Vmb
-	- Bauhaus: 1919-1933: Reform and Avant-garde https://amzn.eu/d/dRyim1S
-	- Bauhaus. Updated Edition: 1919 - 1933 (Bibliotheca Universalis) https://amzn.eu/d/hR4imLc
-	- Aalto: Paradise for the Man in the Street (Basic Art) https://amzn.eu/d/fl3LFCV
-	- Zara Hadid https://amzn.eu/d/70IDkt2
-	- https://www.amazon.co.uk/Zaha-Hadid-Basic-Art-2-0/dp/3836536358/ref=sr_1_4
-	- Nasa Archives https://amzn.eu/d/6FQQuwa
-	- Contemporary Japanese Architecture. 45th Ed. (45th Edition) https://amzn.eu/d/90s6Lw6
-	- Cosmic Communist Constructions Photographed https://amzn.eu/d/ckaBq1h 
-	- https://www.amazon.co.uk/Study-Houses-Complete-Program-1945-1966/dp/3836587874/ref=sr_1_69
-	- Issey Miyake https://amzn.eu/d/9e4lia9
-	- Green Architecture https://amzn.eu/d/05eaLSj
-- Snacks
+	- [Haring](https://amzn.eu/d/1hWNxQp)
+	- [Meier: White Is the Light (Basic Art)](https://amzn.eu/d/dFLvHz3)
+	- [Louis I. Kahn (Basic Art)](https://amzn.eu/d/eXpBeLF)
+	- [Koenig: Living With Steel (Basic Art)](https://amzn.eu/d/in7r0Cp)
+	- [Gaudí: From Nature to Architecture](https://amzn.eu/d/hWTTl1m)
+	- [Kandinsky: 1866-1944: a Revolution in Painting (Basic Art)](https://amzn.eu/d/0WKNa1r)
+	- [Schindler: 1887-1953, an Exploration of Space (Basic Art)](https://amzn.eu/d/decuii1)
+	- [Le Corbusier: 1887 - 1965: the Lyricism of Architecture in the Machine Age (Basic Art)](https://amzn.eu/d/g7t6QPv)
+	- [Japanese Woodblock Prints (Basic Art)](https://amzn.eu/d/febgU6z)
+	- [Hiroshige: 1797-1858: Master of Japanese Ukiyo-e Woodblock Prints](https://amzn.eu/d/bNO6Vmb)
+	- [Bauhaus: 1919-1933: Reform and Avant-garde](https://amzn.eu/d/dRyim1S)
+	- [Bauhaus. Updated Edition: 1919 - 1933 (Bibliotheca Universalis)](https://amzn.eu/d/hR4imLc)
+	- [Aalto: Paradise for the Man in the Street (Basic Art)](https://amzn.eu/d/fl3LFCV)
+	- [Zara Hadid](https://amzn.eu/d/70IDkt2)
+	- [Zara Hadid Basic Art](https://www.amazon.co.uk/Zaha-Hadid-Basic-Art-2-0/dp/3836536358/ref=sr_1_4)
+	- [Nasa Archives](https://amzn.eu/d/6FQQuwa)
+	- [Contemporary Japanese Architecture. 45th Ed. (45th Edition)](https://amzn.eu/d/90s6Lw6)
+	- [Cosmic Communist Constructions Photographed](https://amzn.eu/d/ckaBq1h)
+	- [Case Study Houses](https://www.amazon.co.uk/Study-Houses-Complete-Program-1945-1966/dp/3836587874/ref=sr_1_69)
+	- [Issey Miyake](https://amzn.eu/d/9e4lia9)
+	- [Green Architecture](https://amzn.eu/d/05eaLSj)
+- Food
 	- Japanese Sweets
 		- Tokyo Banana
-	- Wasabi Kit Kats 
-- Micro Cookset
+		- Wasabi Kit Kats 
+	- Single origin chocolate
+		- [Land Chocolate](https://landchocolate.com)
+		- [hotel chocolate](https://www.hotelchocolat.com/uk/shop/collections/products/single-origin-chocolate/)
+		- [Cocoa Runners](https://cocoarunners.com/)
+- Camping Equipment
+	- [Carabiners](https://ultralightoutdoorgear.co.uk/accessory-carabiner-set/)
+	- [Camping Towel Large](https://ultralightoutdoorgear.co.uk/airlite-towel/)
+	- [Ultralight cutting board for camping large](https://ultralightoutdoorgear.co.uk/cutting-board/)
+	- Micro Cookset
 - Bike Equipment
 	- [Tailfin Top Tube Bag - 1.5L](https://www.tailfin.cc/product/top-tube-cockpit/top-tube-bag-flip/?v=7885444af42e)
-	- https://silca.cc/en-gb/collections/wax-lubricants/products/secret-chain-wax-blend
-	- https://silca.cc/en-gb/collections/wax-lubricants/products/strip-chip
-	- 
+	- [Silca Wax](https://silca.cc/en-gb/collections/wax-lubricants/products/secret-chain-wax-blend)
+	- [Silca Wax Strip Chip](https://silca.cc/en-gb/collections/wax-lubricants/products/strip-chip)
+	- Bike / chain cleaner?
+	- Chain breaker tool 
+- Make
+	- [Essdee Lino Cuttin Kit](https://www.amazon.co.uk/Essdee-Lino-Cutting-Printing-Pieces/dp/B00EOP63P8/)
+- Consumables
+	- [Brighton Beard Co ylang ylang and sandal wood beard balm](https://www.thebrightonbeardcompany.co.uk/products/best-beard-balm)
+	- https://www.getfussy.com/no/products/refills
+	- [Lush “Honey I washed the kids” soap](https://www.lush.com/uk/en/p/honey-i-washed-the-kids-soap)
