@@ -49,7 +49,7 @@ date: 2025-09-17
 	- [Case Study Houses](https://www.amazon.co.uk/Study-Houses-Complete-Program-1945-1966/dp/3836587874/ref=sr_1_69)
 	- [Issey Miyake](https://amzn.eu/d/9e4lia9)
 	- [Green Architecture](https://amzn.eu/d/05eaLSj)
-- Food
+- Food & Drink
 	- Japanese Sweets
 		- Tokyo Banana
 		- Wasabi Kit Kats 
@@ -57,6 +57,8 @@ date: 2025-09-17
 		- [Land Chocolate](https://landchocolate.com)
 		- [hotel chocolate](https://www.hotelchocolat.com/uk/shop/collections/products/single-origin-chocolate/)
 		- [Cocoa Runners](https://cocoarunners.com/)
+	- Alcohol Free Drinks
+		- Guinness Zero 
 - Camping Equipment
 	- [Carabiners](https://ultralightoutdoorgear.co.uk/accessory-carabiner-set/)
 	- [Camping Towel Large](https://ultralightoutdoorgear.co.uk/airlite-towel/)
