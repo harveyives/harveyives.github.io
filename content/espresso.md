@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Espresso
 ---
 ![[setup.jpg]]
@@ -17,7 +17,7 @@ Typically I buy from [Fuglen](https://fuglen.no/Our-Coffee), a local roasters in
 When only getting the chance to practice latte art once a day, learning can be challenging. To begin with, results weren’t great.
 
 #### Month 1
-![[attempt1.jpg]]
+![[attempt1.webp]]
 But then I learnt how to texture the oat milk better.
 ![[attempt2.jpg]]
 Experimented with different styles.
